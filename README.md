@@ -17,7 +17,6 @@
         into a pulsating DC voltage.
       </td>
     </tr>
-
     <tr>
       <td><strong>Oscilloscope</strong></td>
       <td><img src="image98.jpg" alt="Oscilloscope" width="200"></td>
@@ -26,7 +25,6 @@
         waveforms, as well as the commutation phenomena.
       </td>
     </tr>
-
     <tr>
       <td><strong>Voltmeter / Ammeter</strong></td>
       <td><img src="image122.jpg" alt="Voltmeter / Ammeter" width="200"></td>
@@ -35,7 +33,6 @@
         voltage and current values.
       </td>
     </tr>
-
     <tr>
       <td><strong>Three-Phase Switch</strong></td>
       <td><img src="image102.jpg" alt="Three-Phase Switch" width="200"></td>
@@ -44,7 +41,6 @@
         experimental setup.
       </td>
     </tr>
-
     <tr>
       <td><strong>Load Resistance (R)</strong></td>
       <td>—</td>
