@@ -4,7 +4,7 @@
   This project focuses on the <strong>study and experimental implementation of a three-phase diode rectifier</strong>,
   a widely used power electronics converter for transforming three-phase AC voltage into DC voltage.
   The experiment examines the rectified waveforms, the effect of smoothing inductance on current ripple,
-  and the anodic overlap phenomenon during single and double commutation.
+  and the anodic overlap phenomenon during single commutation.
 </p>
 
 <h3>Objectives</h3>
@@ -14,6 +14,55 @@
   <li>Study the effect of the smoothing inductor on the rectified current ripple.</li>
   <li>Analyze the anodic overlap phenomenon for single and double commutation.</li>
 </ul>
+<h3>Theoretical Background</h3>
+<h3>Modeling of a Three-Phase Diode Rectifier</h3>
+
+<p>
+  The following figure presents the circuit diagram of a
+  <strong>three-phase diode rectifier</strong>.
+</p>
+
+<p align="center">
+  <img src="Screenshot 2025-03-29 121030.png"
+       alt="Three-Phase Diode Rectifier Circuit"
+       width="700">
+</p>
+
+<p>
+  Assuming that the rectifier is supplied by a balanced three-phase voltage system,
+  the phase voltages are given by:
+</p>
+
+<p align="center">
+  <strong>U<sub>a</sub>(t) = V<sub>m</sub> sin(2πft)</strong>
+</p>
+
+<p align="center">
+  <strong>
+    U<sub>b</sub>(t) = V<sub>m</sub> sin(2πft − 2π/3)
+  </strong>
+</p>
+
+<p align="center">
+  <strong>
+    U<sub>c</sub>(t) = V<sub>m</sub> sin(2πft + 2π/3)
+  </strong>
+</p>
+
+<p>
+  Neglecting the <strong>commutation overlap effect</strong>, the rectifier output
+  voltage is determined by the difference between the maximum and minimum phase
+  voltages:
+</p>
+
+<p align="center">
+  <strong>
+    U<sub>d</sub>(t) =
+    max[U<sub>a</sub>(t), U<sub>b</sub>(t), U<sub>c</sub>(t)]
+    −
+    min[U<sub>a</sub>(t), U<sub>b</sub>(t), U<sub>c</sub>(t)]
+  </strong>
+</p>
 <h3>Experimental Setup</h3>
 
 <table>
