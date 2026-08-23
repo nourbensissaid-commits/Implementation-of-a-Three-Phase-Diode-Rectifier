@@ -77,7 +77,7 @@
 </p>
 
 <p align="center">
-  <img src="418892689_1341610083205513_7096354021055779481_n.JPG"
+  <img src="418892689_1341610083205513_7096354021055779481_n.jpg"
        alt="Rectified output voltage across the RL load"
        width="700">
 </p>
