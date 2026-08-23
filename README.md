@@ -67,21 +67,7 @@
   The <strong>mean value of the rectified output voltage waveform</strong> is given by:
 </p>
 <p align="center">
-  <strong>
-    V<sub>d,avg</sub> =
-    <span style="font-size: 1.1em;">&radic;3;</span>
-    &times;
-    <span style="font-size: 1.1em;">3</span>
-    /
-    &pi;
-    &times;
-    V<sub>max</sub>
-  </strong>
-</p>
-
-<p>
-  Therefore:
-  <strong>V<sub>d,avg</sub> = (3&radic;3 / &pi;) V<sub>max</sub></strong>.
+<strong>V<sub>d,avg</sub> = (3&radic;3 / &pi;) V<sub>max</sub></strong>.
 </p>
 <h3>Simulation Results</h3>
 
