@@ -178,3 +178,44 @@
   conditions; therefore, the current variation should be determined from the
   experimental measurements rather than assumed from the voltage waveform alone.
 </p>
+<h3>Commutation Overlap Phenomenon</h3>
+
+<p>
+  The <strong>commutation overlap phenomenon</strong> is caused by the presence of
+  an inductance <strong>L</strong> between the ideal voltage source and the diodes.
+  This inductance may originate from the transformer secondary winding and the
+  conductors connecting the source to the diode bridge. The source resistance is
+  denoted by <strong>R<sub>S</sub></strong>.
+</p>
+
+<p>
+  Due to this inductance, the current in the phases cannot change or become zero
+  instantaneously. As a result, during the commutation interval, several diodes
+  conduct simultaneously for a short period of time. This phenomenon is known as
+  <strong>anodic overlap</strong> and has two main effects:
+</p>
+
+<ol>
+  <li>
+    <strong>Generation of reactive power Q</strong>
+    <p>
+      The overlap phenomenon causes the rectifier to draw reactive power from the
+      AC source. This reactive power results in additional losses in the system,
+      particularly in the lines and transformers, and can reduce the overall
+      efficiency.
+    </p>
+  </li>
+
+  <li>
+    <strong>Reduction of the mean output voltage &lt;U<sub>d</sub>&gt;</strong>
+    <p>
+      Commutation overlap distorts the rectified output voltage waveform. During
+      the interval in which multiple diodes conduct simultaneously, a portion of
+      the output voltage is lost, represented by <strong>&Delta;U<sub>e</sub></strong>.
+    </p>
+    <p>
+      Consequently, the mean value of the rectified voltage decreases, which can
+      directly affect the performance of the rectifier and the connected load.
+    </p>
+  </li>
+</ol>
